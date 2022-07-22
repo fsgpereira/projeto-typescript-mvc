@@ -2,7 +2,7 @@
 import { Request, Response } from 'express'
 import { database } from "../database";
 
-export class usersController {
+export class UsersController {
     criarUsuario(request: Request, response: Response): Response {
         const { name } = request.body;
 
